@@ -3,64 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Website</title>
+    <title>News Today</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Daily News</h1>
+        <h1>News Today</h1>
         <nav>
             <ul>
-                <li>World</li>
-                <li>Technology</li>
-                <li>Sports</li>
-                <li>Entertainment</li>
+                <li><a href="#world">World</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#entertainment">Entertainment</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Main Section -->
     <main>
-        <section>
+        <section id="latest-news">
+            <h2>Latest News</h2>
+
+            <!-- News Article 1 -->
             <article>
-                <h2>Breakthrough in AI</h2>
-                <img src="ai_news.jpg" alt="AI News">
-                <p>Researchers unveil a groundbreaking AI technology.</p>
-                <ul>
-                    <li>Enhanced performance</li>
-                    <li>Broader applications</li>
-                    <li>Global implications</li>
-                </ul>
+                <h3>Global Climate Summit</h3>
+                <img src="climate-summit.jpg" alt="Climate Summit" width="300">
+                <p>World leaders gather to discuss urgent climate action.</p>
+                <ol>
+                    <li>Focus on renewable energy adoption.</li>
+                    <li>Commitment to reducing carbon emissions.</li>
+                    <li>Global funding for sustainable projects.</li>
+                </ol>
             </article>
+
+            <!-- News Article 2 -->
             <article>
-                <h2>Sports Championship</h2>
-                <img src="sports.jpg" alt="Sports Championship">
-                <p>The championship ended with an unexpected victory.</p>
-                <ul>
-                    <li>Final scores</li>
-                    <li>Highlights</li>
-                    <li>Interviews</li>
-                </ul>
+                <h3>Breakthrough in AI Technology</h3>
+                <img src="ai-breakthrough.jpg" alt="AI Technology" width="300">
+                <p>Researchers unveil a new AI model that surpasses human-level accuracy.</p>
+                <ol>
+                    <li>Applications in healthcare and robotics.</li>
+                    <li>Potential risks and ethical concerns.</li>
+                    <li>Collaboration between leading tech firms.</li>
+                </ol>
             </article>
+
+            <!-- News Article 3 -->
             <article>
-                <h2>Upcoming Movie Releases</h2>
-                <img src="movies.jpg" alt="Upcoming Movies">
-                <p>Exciting new movies to watch out for this season.</p>
-                <ul>
-                    <li>Release dates</li>
-                    <li>Cast and crew</li>
-                    <li>Trailers</li>
-                </ul>
+                <h3>Sports: World Cup Fever</h3>
+                <img src="world-cup.jpg" alt="World Cup" width="300">
+                <p>The countdown to the World Cup begins with teams gearing up for the tournament.</p>
+                <ol>
+                    <li>Key players to watch this season.</li>
+                    <li>Host country preparations.</li>
+                    <li>Predictions for the finals.</li>
+                </ol>
             </article>
         </section>
-        <aside>
-            <h3>Top Stories</h3>
-            <ul>
-                <li>Global economy trends</li>
-                <li>Space exploration updates</li>
-                <li>Health and wellness tips</li>
-            </ul>
-        </aside>
     </main>
+
+    <!-- Aside Section -->
+    <aside>
+        <h3>Top Stories</h3>
+        <ul>
+            <li><a href="#story1">SpaceX launches another satellite</a></li>
+            <li><a href="#story2">Record-breaking rainfall hits Asia</a></li>
+            <li><a href="#story3">Tech giants announce major merger</a></li>
+        </ul>
+    </aside>
+
+    <!-- Footer -->
     <footer>
-        <p>Subscribe for daily updates | Follow us on social media</p>
+        <p>&copy; 2024 News Today | Subscribe to our newsletter!</p>
+        <p>Follow us on  
+            <a href="https://twitter.com">Twitter</a>,  
+            <a href="https://facebook.com">Facebook</a>,  
+            <a href="https://instagram.com">Instagram</a>.
+        </p>
     </footer>
 </body>
 </html>
